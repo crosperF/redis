@@ -8,7 +8,10 @@ import (
 )
 
 func main() {
-	lisner, err := net.Listen("tcp", ":8000")
+	// buffer_test()
+	// return
+
+	lisner, err := net.Listen("tcp", ":6379")
 	if err != nil {
 		fmt.Println(err)
 		return
